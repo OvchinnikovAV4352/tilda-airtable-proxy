@@ -6,3 +6,9 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Явно указываем главную страницу
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
